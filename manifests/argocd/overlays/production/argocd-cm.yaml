@@ -1,3 +1,4 @@
+---
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -8,11 +9,11 @@ metadata:
     app.kubernetes.io/part-of: argocd
 data:
   application.instanceLabelKey: argocd.argoproj.io/instance
-  url: https://argocd.cloudnativedays.jp/
+  url: https://argocd.cloudnativedays.jp/ # TODO
   oidc.config: |
     name: Auth0
-    issuer: https://dreamkast.us.auth0.com/
-    clientID: 34CNIWysaolYGdA5FK2OVGRgcNaEWNoU
+    issuer: https://dev-q39mnbp8.jp.auth0.com/
+    clientID: lIrIGrhacjYsZcqEXeauzTmkK5Sz79nL
     clientSecret: $oidc.auth0.clientSecret
     requestedIDTokenClaims:
       groups:

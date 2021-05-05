@@ -13,7 +13,7 @@ spec:
   project: default
   source:
     path: manifests/infra/contour/overlays/production
-    repoURL: https://github.com/cloudnativedaysjp/dreamkast-infra.git
+    repoURL: https://github.com/cloudopsdays/dreamkast-infra.git
     targetRevision: main
   syncPolicy:
     automated:

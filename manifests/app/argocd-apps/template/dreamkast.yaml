@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: manifests/app/dreamkast/overlays/ENVIRONMENT/BRANCH
-    repoURL: https://github.com/cloudnativedaysjp/dreamkast-infra.git
+    repoURL: https://github.com/cloudopsdays/dreamkast-infra.git
     targetRevision: main
   syncPolicy:
     automated:

@@ -19,8 +19,8 @@ spec:
       - image: 607167088920.dkr.ecr.ap-northeast-1.amazonaws.com/dreamkast-releasebot:main
         name: dreamkast-releasebot
         args:
-          - --target-repositories=https://github.com/cloudnativedaysjp/dreamkast
-          - --target-repositories=https://github.com/cloudnativedaysjp/dreamkast-ui
+          - --target-repositories=https://github.com/cloudopsdays/dreamkast
+          - --target-repositories=https://github.com/cloudopsdays/dreamkast-ui
           - --base-branch=main
           - --enable-auto-merge=false
         env:
