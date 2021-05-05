@@ -8,10 +8,6 @@ metadata:
   namespace: projectcontour
 spec:
   replicas: 1
-  updateStrategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxUnavailable: 10%
   selector:
     matchLabels:
       app: envoy
