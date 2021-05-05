@@ -2,9 +2,9 @@
 apiVersion: projectcontour.io/v1
 kind: TLSCertificateDelegation
 metadata:
-  name: wildcard-cloudnativedays-jp
+  name: wildcard-cloudopsdays-jp
 spec:
   delegations:
-    - secretName: wildcard-cloudnativedays-jp
+    - secretName: wildcard-cloudopsdays-jp
       targetNamespaces:
       - "*"

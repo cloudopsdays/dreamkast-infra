@@ -2,11 +2,11 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: wildcard-cloudnativedays-jp
+  name: wildcard-cloudopsdays-jp
 spec:
   dnsNames:
-  - '*.cloudnativedays.jp'
+  - '*.dreamkast.cloudopsdays.jp'
   issuerRef:
     kind: ClusterIssuer
     name: letsencrypt
-  secretName: wildcard-cloudnativedays-jp
+  secretName: wildcard-cloudopsdays-jp
