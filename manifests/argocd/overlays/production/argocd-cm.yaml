@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/part-of: argocd
 data:
   application.instanceLabelKey: argocd.argoproj.io/instance
-  url: https://argocd.cloudnativedays.jp/ # TODO
+  url: https://argocd.event.cloudopsdays.com/
   oidc.config: |
     name: Auth0
     issuer: https://dev-q39mnbp8.jp.auth0.com/
