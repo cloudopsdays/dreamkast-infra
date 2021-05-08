@@ -5,6 +5,6 @@ metadata:
   name: wildcard-cloudopsdays-jp
 spec:
   delegations:
-    - secretName: wildcard-cloudopsdays-jp
+    - secretName: wildcard-cloudopsdays-com
       targetNamespaces:
       - "*"

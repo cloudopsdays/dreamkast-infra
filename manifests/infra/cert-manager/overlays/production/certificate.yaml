@@ -5,8 +5,8 @@ metadata:
   name: wildcard-cloudopsdays-jp
 spec:
   dnsNames:
-  - '*.dreamkast.cloudopsdays.jp'
+  - '*.event.cloudopsdays.com'
   issuerRef:
     kind: ClusterIssuer
     name: letsencrypt
-  secretName: wildcard-cloudopsdays-jp
+  secretName: wildcard-cloudopsdays-com
