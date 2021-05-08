@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   virtualhost:
-    fqdn: argocd.dreamkast.cloudopsdays.jp
+    fqdn: argocd.event.cloudopsdays.jp
     tls:
       passthrough: true
   tcpproxy:
