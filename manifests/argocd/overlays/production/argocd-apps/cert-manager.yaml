@@ -19,6 +19,8 @@ spec:
       parameters:
       - name: installCRDs
         value: "true"
+      - name: webhook.securePort
+        value: "10260"
   syncPolicy:
     automated:
       prune: true
