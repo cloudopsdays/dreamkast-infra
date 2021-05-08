@@ -14,3 +14,4 @@ spec:
     - dns01:
         route53:
           region: ap-northeast-1
+          hostedZoneID: Z08232361QYPD3JF70EB6
