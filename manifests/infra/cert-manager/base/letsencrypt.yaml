@@ -13,5 +13,9 @@ spec:
     solvers:
     - dns01:
         route53:
-          region: ap-northeast-1
           hostedZoneID: Z08232361QYPD3JF70EB6
+          region: ap-northeast-1
+          accessKeyID: AKIASNWXRJTVSBGAYQ5C
+          secretAccessKeySecretRef:
+            key: secret-access-key
+            name: prod-route53-credentials-secret
