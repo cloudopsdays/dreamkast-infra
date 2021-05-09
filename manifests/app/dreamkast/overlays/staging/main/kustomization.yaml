@@ -12,5 +12,5 @@ images:
 - name: public.ecr.aws/z5v6i5y3/dreamkast-ecs
   newTag: f3e0433e79310079225f2ee84c3df1c5c6bbc795
 - name: public.ecr.aws/z5v6i5y3/dreamkast-ui
-  newTag: f25957bd6e5a31fc09209035675fec692fdcbef6
+  newTag: a3850f7d1c5a7cf9115092a150360bce03d2d449
 namespace: dreamkast-staging
