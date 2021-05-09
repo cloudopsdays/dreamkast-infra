@@ -7,7 +7,7 @@ spec:
   virtualhost:
     fqdn: argocd.event.cloudopsdays.com
     tls:
-      passthrough: true
+      secretName: cert-manager/wildcard-cloudopsdays-com
   tcpproxy:
     services:
     - name: argocd-server
