@@ -33,6 +33,11 @@ spec:
     spec:
       containers:
       - name: argocd-server
+        command:
+          - argocd-server
+          - --insecure
+          - --staticassets
+          - /shared/app
         resources:
           limits:
             cpu: 100m
