@@ -126,6 +126,16 @@ spec:
             secretKeyRef:
               name: dreamkast-secret
               key: AUTH0_DOMAIN
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: dreamkast-secret
+              key: AWS_ACCESS_KEY_ID
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: dreamkast-secret
+              key: AWS_SECRET_ACCESS_KEY
         livenessProbe:
           httpGet:
             port: 3000
