@@ -12,7 +12,7 @@ data:
   url: https://argocd.event.cloudopsdays.com/
   oidc.config: |
     name: Auth0
-    issuer: https://dev-q39mnbp8.jp.auth0.com/
+    issuer: https://dreamkast.us.auth0.com/
     clientID: 34CNIWysaolYGdA5FK2OVGRgcNaEWNoU
     clientSecret: $oidc.auth0.clientSecret
     requestedIDTokenClaims:
