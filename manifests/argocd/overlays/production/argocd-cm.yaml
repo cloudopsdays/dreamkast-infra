@@ -13,7 +13,7 @@ data:
   oidc.config: |
     name: Auth0
     issuer: https://dev-q39mnbp8.jp.auth0.com/
-    clientID: lIrIGrhacjYsZcqEXeauzTmkK5Sz79nL
+    clientID: 34CNIWysaolYGdA5FK2OVGRgcNaEWNoU
     clientSecret: $oidc.auth0.clientSecret
     requestedIDTokenClaims:
       groups:
