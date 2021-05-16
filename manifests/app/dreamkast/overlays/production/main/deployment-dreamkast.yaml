@@ -34,7 +34,7 @@ spec:
         - name: RAILS_ENV
           value: "production"
         - name: MYSQL_HOST
-          value: "dreamkast-prd-rds.c6eparu1hmbv.ap-northeast-1.rds.amazonaws.com"
+          value: "codt-dreamkast-prd-rds.c4znvjiyxus0.ap-northeast-1.rds.amazonaws.com"
         - name: MYSQL_DATABASE
           value: "dreamkast"
         - name: REDIS_URL
@@ -42,7 +42,7 @@ spec:
         - name: SENTRY_DSN
           value: "https://443f0535beb64cd8b2e995d001e0903b@o414348.ingest.sentry.io/5350644"
         - name: S3_BUCKET
-          value: "dreamkast-prd-bucket"
+          value: "codt-dreamkast-prd-bucket"
         - name: S3_REGION
           value: ap-northeast-1
         - name: RAILS_MASTER_KEY
@@ -85,7 +85,7 @@ spec:
         - name: RAILS_ENV
           value: "production"
         - name: MYSQL_HOST
-          value: "dreamkast-prd-rds.c6eparu1hmbv.ap-northeast-1.rds.amazonaws.com"
+          value: "codt-dreamkast-prd-rds.c4znvjiyxus0.ap-northeast-1.rds.amazonaws.com"
         - name: MYSQL_DATABASE
           value: "dreamkast"
         - name: REDIS_URL
@@ -93,7 +93,7 @@ spec:
         - name: SENTRY_DSN
           value: "https://443f0535beb64cd8b2e995d001e0903b@o414348.ingest.sentry.io/5350644"
         - name: S3_BUCKET
-          value: "dreamkast-prd-bucket"
+          value: "codt-dreamkast-prd-bucket"
         - name: S3_REGION
           value: ap-northeast-1
         - name: RAILS_MASTER_KEY
