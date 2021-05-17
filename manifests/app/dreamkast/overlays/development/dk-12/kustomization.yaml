@@ -9,6 +9,6 @@ resources:
 patchesStrategicMerge:
 - deployment-dreamkast.yaml
 images:
-- name: public.ecr.aws/z5v6i5y3/dreamkast-ui
-  newTag: c6cc295f940b1e7916dd7918c969764d1b14c171
-namespace: dreamkast-ui-2
+- name: public.ecr.aws/z5v6i5y3/dreamkast-ecs
+  newTag: 6fe359d6e10bb4c8c5c672681793a0bb88cc7f51
+namespace: dreamkast-dk-12

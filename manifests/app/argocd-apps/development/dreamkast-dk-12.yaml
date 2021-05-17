@@ -1,17 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dreamkast-development-ui-2
+  name: dreamkast-development-dk-12
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io # cascade deletion on this App deletion
 spec:
   destination:
-    namespace: dreamkast-ui-2
+    namespace: dreamkast-dk-12
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: manifests/app/dreamkast/overlays/development/ui-2
+    path: manifests/app/dreamkast/overlays/development/dk-12
     repoURL: https://github.com/cloudopsdays/dreamkast-infra.git
     targetRevision: main
   syncPolicy:
