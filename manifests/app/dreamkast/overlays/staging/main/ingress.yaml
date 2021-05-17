@@ -7,9 +7,9 @@ metadata:
     app: dreamkast
 spec:
   virtualhost:
-    fqdn: staging.dev.cloudnativedays.jp
+    fqdn: staging.event.cloudopsdays.com
     tls:
-      secretName: cert-manager/wildcard-dev-cloudnativedays-jp
+      secretName: cert-manager/wildcard-cloudopsdays-com
   routes:
     - conditions:
       - prefix: /
@@ -23,7 +23,7 @@ spec:
       - name: dreamkast
         port: 80
     - conditions:
-      - prefix: /cndo2021/ui
+      - prefix: /codt2021/ui
       services:
       - name: dreamkast-ui
         port: 3001
