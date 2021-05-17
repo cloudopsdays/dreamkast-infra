@@ -8,3 +8,13 @@ spec:
     - secretName: wildcard-cloudopsdays-com
       targetNamespaces:
       - "*"
+---
+apiVersion: projectcontour.io/v1
+kind: TLSCertificateDelegation
+metadata:
+  name: event-cloudopsdays-com
+spec:
+  delegations:
+    - secretName: event-cloudopsdays-com
+      targetNamespaces:
+        - '*'
