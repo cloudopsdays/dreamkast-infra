@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- mysql.yaml
+- redis.yaml
+- externalsecret.yaml
+- ingress.yaml
+- ../../../base
+patchesStrategicMerge:
+- deployment-dreamkast.yaml
+images:
+- name: public.ecr.aws/z5v6i5y3/dreamkast-ecs
+  newTag: 71580fffd1964f390dc57a347dfe1d8f6eb5db64
+namespace: dreamkast-dk-19
