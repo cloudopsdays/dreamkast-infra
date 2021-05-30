@@ -36,7 +36,7 @@ spec:
         - name: MYSQL_HOST
           value: "codt-dreamkast-stg-rds.c4znvjiyxus0.ap-northeast-1.rds.amazonaws.com"
         - name: MYSQL_DATABASE
-          value: "dreamkast-staging"
+          value: "dreamkast"
         - name: REDIS_URL
           value: "redis://dreamkast-redis:6379"
         - name: SENTRY_DSN
@@ -86,7 +86,7 @@ spec:
         - name: MYSQL_HOST
           value: "codt-dreamkast-stg-rds.c4znvjiyxus0.ap-northeast-1.rds.amazonaws.com"
         - name: MYSQL_DATABASE
-          value: "dreamkast-staging"
+          value: "dreamkast"
         - name: REDIS_URL
           value: "redis://dreamkast-redis:6379"
         - name: SENTRY_DSN
