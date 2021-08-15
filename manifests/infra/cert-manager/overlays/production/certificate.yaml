@@ -21,4 +21,4 @@ spec:
   issuerRef:
     kind: ClusterIssuer
     name: letsencrypt
-  secretName: wildcard-cloudopsdays-com
+  secretName: event-cloudopsdays-com
