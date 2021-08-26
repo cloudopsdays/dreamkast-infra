@@ -90,7 +90,13 @@ spec:
         image: public.ecr.aws/z5v6i5y3/dreamkast-ecs:main
         ports:
           - containerPort: 3000
-            resources:
+        resources:
+          requests:
+            memory: "2048Mi"
+            cpu: "2000m"
+          limits:
+            memory: "2048Mi"
+            cpu: "2000m"
         env:
         - name: RAILS_ENV
           value: "production"
@@ -189,3 +195,10 @@ spec:
         name: dreamkast-ui
         ports:
         - containerPort: 3001
+        resources:
+          requests:
+            memory: "2048Mi"
+            cpu: "2000m"
+          limits:
+            memory: "2048Mi"
+            cpu: "2000m"
