@@ -90,7 +90,6 @@ spec:
         image: public.ecr.aws/z5v6i5y3/dreamkast-ecs:main
         ports:
           - containerPort: 3000
-            resources:
         resources:
           requests:
             memory: "2048Mi"
